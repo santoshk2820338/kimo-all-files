@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --light-green : #008080;
+  --light-bg : #E6F2F2;
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'IBM Plex Mono', monospace;
+  box-sizing: border-box;
+}
+.text-green {
+  color: var(--light-green);
+}
+.border-green{
+  border-color: var(--light-green);
+}
+.h-350{
+  height:360px !important;
+}
+.hero-bg{
+  background-image: url(/hero.svg);
+  height: 560px;
+}
+.activity-bg{
+  background-image: url(/hero.svg);
+  height: 300px;
+}
+.overflow-hidden{
+  overflow: hidden;
+}
+.min-w-260{
+  min-width: 260px !important;
+}
+.button {
+  padding: 8px 18px;
+  background-color: var(--light-green);
+  
+}
+.color-lightgreen {
+  color: var(--light-green);
+}
+.hero-text{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 6.44%, #FFFFFF 95.08%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.light-bg {
+  background-color: var(--light-bg);
+}
